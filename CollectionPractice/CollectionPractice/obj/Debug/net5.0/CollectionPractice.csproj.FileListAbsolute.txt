@@ -1,0 +1,16 @@
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.exe
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.deps.json
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.runtimeconfig.json
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.runtimeconfig.dev.json
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.dll
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\ref\CollectionPractice.dll
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\bin\Debug\net5.0\CollectionPractice.pdb
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.csproj.AssemblyReference.cache
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.AssemblyInfoInputs.cache
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.AssemblyInfo.cs
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.csproj.CoreCompileInputs.cache
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.dll
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\ref\CollectionPractice.dll
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.pdb
+C:\Users\T460\source\repos\CollectionPractice\CollectionPractice\obj\Debug\net5.0\CollectionPractice.genruntimeconfig.cache
