@@ -1,0 +1,16 @@
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.exe
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.deps.json
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.runtimeconfig.json
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.runtimeconfig.dev.json
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.dll
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ref\ExceptionPractice.dll
+D:\Workspace\ExceptionPractice\ExceptionPractice\bin\Debug\net5.0\ExceptionPractice.pdb
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.csproj.AssemblyReference.cache
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.AssemblyInfoInputs.cache
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.AssemblyInfo.cs
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.csproj.CoreCompileInputs.cache
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.dll
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ref\ExceptionPractice.dll
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.pdb
+D:\Workspace\ExceptionPractice\ExceptionPractice\obj\Debug\net5.0\ExceptionPractice.genruntimeconfig.cache

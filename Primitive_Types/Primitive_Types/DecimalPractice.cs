@@ -8,9 +8,21 @@ namespace PrimitiveTypes
 {
     class DecimalPractice
     {
-        public static void CheckDecimalString(string decimalString)
+        public static void PrintMenu()
         {
+            Console.WriteLine("\n------------------------------------------------------");
+            Console.WriteLine("1. CheckDecimalString");
+            Console.WriteLine("2. DecimalToString");
+            Console.WriteLine("3. Thoat");
+            Console.WriteLine("------------------------------------------------------\n");
+        }
 
+        public static void CheckDecimalString()
+        {
+            Console.Clear();
+            Console.WriteLine("1. CheckDecimalString");
+            Console.WriteLine("Nhap so decimal:");
+            string decimalString = Console.ReadLine();
             decimal number;
             if (decimal.TryParse(decimalString, out number))
             {
@@ -40,9 +52,13 @@ namespace PrimitiveTypes
 
 
         //Reference: https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings
-        public static void DecimalToString(decimal number)
+        public static void DecimalToString()
         {
-            Console.WriteLine(number.ToString( "#,#.##"));
+            Console.Clear();
+            Console.WriteLine("2. DecimalToString");
+            Console.WriteLine("Nhap so decimal:");
+            decimal number = decimal.Parse(Console.ReadLine());
+            Console.WriteLine(number.ToString( "#,#.###"));
         }
 
     }

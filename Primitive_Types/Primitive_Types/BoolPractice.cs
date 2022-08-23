@@ -4,9 +4,13 @@ namespace PrimitiveTypes
 {
     static class BoolPractice
     {
-        public static void CheckBoolString(string stringbool)
+        public static void CheckBoolString()
         {
-            if(stringbool == "true" || stringbool == "false")
+            Console.Clear();
+            Console.WriteLine("CheckBoolString");
+            Console.WriteLine("Nhap chuoi(\"0\" de thoat): ");
+            string stringbool = Console.ReadLine();
+            if (stringbool == "true" || stringbool == "false")
             {
                 Console.WriteLine("Chuỗi hợp lệ");
             }

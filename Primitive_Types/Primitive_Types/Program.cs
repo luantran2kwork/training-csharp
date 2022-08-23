@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace PrimitiveTypes
 {
@@ -7,43 +8,189 @@ namespace PrimitiveTypes
     {
         static void Main(string[] args)
         {
-            //StringPractice.CheckEmptyOrSpaceString("         sad           ");
-            //StringPractice.CheckEmptyOrSpaceStringAndTrim("         sad     sadsd      ");
-            //StringPractice.CheckEmptyOrSpaceStringAndRemoveWhiteSpace("         sad   asd  dsadsa      ");
-            //StringPractice.CapitalizeString("  sad saddsa    sda t ");
-            //StringPractice.CountWhiteSpace("a       j  j a");
-            //StringPractice.CountNotWhiteSpace("a       j  j a");
-            //StringPractice.CompareString("Aaaa", "aaaa");
-            //StringPractice.CompareInSensitiveString("Aaaa", "aaaa");
-            //StringPractice.ReplaceABCtoDEF("AAA A abc    ABC");
-            //StringPractice.Welcome("Luan tran");
-            //StringPractice.ReverseString("ReverseString");
-            //StringPractice.GetNCharStartOfStringTrimStart("   Hello world   ", 7);
-            //StringPractice.GetNCharStartOfString("   Hello world   ", 7);
-            //StringPractice.GetNCharEndOfString("   Hello world   ", 7);
+            //while (true)
+            //{
+            //    StringPractice.PrintMenu();
+            //    Console.WriteLine("Chon muc thuc hien");
+            //    int option;
+            //    int.TryParse(Console.ReadLine(), out option);
+            //    if (option == 15)
+            //    {
+            //        Console.WriteLine("Thoat");
+            //        break;
+            //    }
 
-            //IntPractice.CheckOddOrEvenNumber(1);
-            //IntPractice.Abs(-20);
-            //IntPractice.SquareNumber(2);
-            //IntPractice.Divide(5, 2);
-            //IntPractice.CheckPrimeNumber(7);
-            //IntPractice.CheckInt32String("3332");
 
-            //BoolPractice.CheckBoolString("trues");
+            //    switch (option)
+            //    {
+            //        case 1:
+            //            StringPractice.CheckEmptyOrSpaceString();
+            //            break;
+            //        case 2:
+            //            StringPractice.CheckEmptyOrSpaceStringAndTrim();
+            //            break;
+            //        case 3:
+            //            StringPractice.CheckEmptyOrSpaceStringAndRemoveWhiteSpace();
+            //            break;
+            //        case 4:
+            //            StringPractice.CapitalizeString();
+            //            break;
+            //        case 5:
+            //            StringPractice.CountWhiteSpace();
+            //            break;
+            //        case 6:
+            //            StringPractice.CountNotWhiteSpace();
+            //            break;
+            //        case 7:
+            //            StringPractice.CompareString();
+            //            break;
+            //        case 8:
+            //            StringPractice.CompareInSensitiveString();
+            //            break;
+            //        case 9:
+            //            StringPractice.ReplaceABCtoDEF();
+            //            break;
+            //        case 10:
+            //            StringPractice.Welcome();
+            //            break;
+            //        case 11:
+            //            StringPractice.ReverseString();
+            //            break;
+            //        case 12:
+            //            StringPractice.GetNCharStartOfStringTrimStart();
+            //            break;
+            //        case 13:
+            //            StringPractice.GetNCharStartOfString();
+            //            break;
+            //        case 14:
+            //            StringPractice.GetNCharEndOfString();
+            //            break;
+            //        default:
+            //            Console.Clear();
+            //            Console.WriteLine("So khong hop le vui long nhap lai");
+            //            break;
+            //    }
+            //}
 
-            //DecimalPractice.CheckDecimalString("011,000,000.0056"); //100; 1,000,000; 1,000.5
-            //DecimalPractice.DecimalToString(1000099990.6095m);
+            //while (true)
+            //{
+            //    IntPractice.PrintMenu();
+            //    Console.WriteLine("Chon muc thuc hien");
+            //    int option;
+            //    int.TryParse(Console.ReadLine(), out option);
+            //    if (option == 7)
+            //    {
+            //        Console.WriteLine("Thoat");
+            //        break;
+            //    }
 
-            //DateTimePractice.GetCurrentDay();
-            //DateTimePractice.ShowDate(new DateTime(2022, 08, 22));
-            //DateTimePractice.GetDateAfter(new DateTime(2022, 08, 22));
-            //DateTimePractice.GetDateBefore(new DateTime(2022, 08, 22));
-            //DateTimePractice.CompareDate(new DateTime(2022, 08, 22));
-            //DateTimePractice.FormatDate(new DateTime(2022, 08, 22));
-            //DateTimePractice.Get10DaysBefore(new DateTime(2022, 08, 22));
-            //DateTimePractice.GetLastDayOfMonth(new DateTime(2022, 08, 22));
-            //DateTimePractice.GetLastDayOfYear(new DateTime(2021, 08, 22));
-            //DateTimePractice.GetDurationBetweenTwoDays(new DateTime(2022, 01, 01), new DateTime(2022, 01, 02));
-        }   
+            //    switch (option)
+            //    {
+            //        case 1:
+            //            IntPractice.CheckOddOrEvenNumber();
+            //            break;
+            //        case 2:
+            //            IntPractice.Abs();
+            //            break;
+            //        case 3:
+            //            IntPractice.SquareNumber();
+            //            break;
+            //        case 4:
+            //            IntPractice.Divide();
+            //            break;
+            //        case 5:
+            //            IntPractice.CheckPrimeNumber();
+            //            break;
+            //        case 6:
+            //            IntPractice.CheckInt32String();
+            //            break;
+            //        default:
+            //            Console.Clear();
+            //            Console.WriteLine("So khong hop le vui long nhap lai");
+            //            break;
+            //    }
+            //}
+
+            //BoolPractice.CheckBoolString();
+
+
+            //while (true)
+            //{
+            //    DecimalPractice.PrintMenu();
+            //    Console.WriteLine("Chon muc thuc hien");
+            //    int option;
+            //    int.TryParse(Console.ReadLine(), out option);
+            //    if (option == 3)
+            //    {
+            //        Console.WriteLine("Thoat");
+            //        break;
+            //    }
+
+            //    switch (option)
+            //    {
+            //        case 1:
+            //            DecimalPractice.CheckDecimalString(); //100; 1,000,000; 1,000.5
+            //            break;
+            //        case 2:
+            //            DecimalPractice.DecimalToString();
+            //            break;
+            //        default:
+            //            Console.Clear();
+            //            Console.WriteLine("So khong hop le vui long nhap lai");
+            //            break;
+            //    }
+            //}
+
+            //while (true)
+            //{
+            //    DateTimePractice.PrintMenu();
+            //    Console.WriteLine("Chon muc thuc hien");
+            //    int option;
+            //    int.TryParse(Console.ReadLine(), out option);
+            //    if (option == 11)
+            //    {
+            //        Console.WriteLine("Thoat");
+            //        break;
+            //    }
+
+            //    switch (option)
+            //    {
+            //        case 1:
+            //            DateTimePractice.GetCurrentDay();
+            //            break;
+            //        case 2:
+            //            DateTimePractice.ShowDate();
+            //            break;
+            //        case 3:
+            //            DateTimePractice.GetDateAfter();
+            //            break;
+            //        case 4:
+            //            DateTimePractice.GetDateBefore();
+            //            break;
+            //        case 5:
+            //            DateTimePractice.CompareDate();
+            //            break;
+            //        case 6:
+            //            DateTimePractice.FormatDate();
+            //            break;
+            //        case 7:
+            //            DateTimePractice.Get10DaysBefore();
+            //            break;
+            //        case 8:
+            //            DateTimePractice.GetLastDayOfMonth();
+            //            break;
+            //        case 9:
+            //            DateTimePractice.GetLastDayOfYear();
+            //            break;
+            //        case 10:
+            //            DateTimePractice.GetDurationBetweenTwoDays();
+            //            break;
+            //        default:
+            //            Console.Clear();
+            //            Console.WriteLine("So khong hop le vui long nhap lai");
+            //            break;
+            //    }
+            //}
+        }
     }
 }

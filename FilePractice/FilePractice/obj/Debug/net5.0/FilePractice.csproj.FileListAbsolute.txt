@@ -1,0 +1,15 @@
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.exe
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.deps.json
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.runtimeconfig.json
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.runtimeconfig.dev.json
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.dll
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\ref\FilePractice.dll
+D:\Workspace\FilePractice\FilePractice\bin\Debug\net5.0\FilePractice.pdb
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.AssemblyInfoInputs.cache
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.AssemblyInfo.cs
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.csproj.CoreCompileInputs.cache
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.dll
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\ref\FilePractice.dll
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.pdb
+D:\Workspace\FilePractice\FilePractice\obj\Debug\net5.0\FilePractice.genruntimeconfig.cache

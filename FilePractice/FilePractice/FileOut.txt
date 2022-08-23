@@ -1,0 +1,4 @@
+42    42    123    232    321; aaa, bb khong phai kieu Int32; 733333333333333333  bi vuot gioi han kieu Int32
+42    42    123    232    321; aaa, bb khong phai kieu Int32; 733333333333333333  bi vuot gioi han kieu Int32
+42    42    123    232    321; aaa, bb khong phai kieu Int32; 733333333333333333  bi vuot gioi han kieu Int32
+42    42    123    232    321; aaa, bb khong phai kieu Int32; 733333333333333333  bi vuot gioi han kieu Int32

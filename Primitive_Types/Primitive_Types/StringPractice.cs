@@ -4,9 +4,35 @@ namespace PrimitiveTypes
 {
     static class StringPractice
     {
-        public static void CheckEmptyOrSpaceString(string inputString)
+
+        public static void PrintMenu()
         {
-            if(inputString == null)
+            Console.WriteLine("\n------------------------------------------------------");
+            Console.WriteLine("1. CheckEmptyOrSpaceString");
+            Console.WriteLine("2. CheckEmptyOrSpaceStringAndTrim");
+            Console.WriteLine("3. CheckEmptyOrSpaceStringAndRemoveWhiteSpace");
+            Console.WriteLine("4. CapitalizeString");
+            Console.WriteLine("5. CountWhiteSpace");
+            Console.WriteLine("6. CountNotWhiteSpace");
+            Console.WriteLine("7. CompareString");
+            Console.WriteLine("8. CompareInSensitiveString");
+            Console.WriteLine("9. ReplaceABCtoDEF");
+            Console.WriteLine("10. Welcome");
+            Console.WriteLine("11. ReverseString");
+            Console.WriteLine("12. etNCharStartOfStringTrimStart");
+            Console.WriteLine("13. GetNCharStartOfString");
+            Console.WriteLine("14. GetNCharEndOfString");
+            Console.WriteLine("15. Exit");
+            Console.WriteLine("------------------------------------------------------\n");
+        }
+
+        public static void CheckEmptyOrSpaceString()
+        {
+            Console.Clear();
+            Console.WriteLine("1. CheckEmptyOrSpaceString");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
+            if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
                 return;
@@ -28,8 +54,12 @@ namespace PrimitiveTypes
             Console.WriteLine("Chuỗi Space");
         }
 
-        public static void CheckEmptyOrSpaceStringAndTrim(string inputString)
+        public static void CheckEmptyOrSpaceStringAndTrim()
         {
+            Console.Clear();
+            Console.WriteLine("2. CheckEmptyOrSpaceStringAndTrim");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -51,8 +81,12 @@ namespace PrimitiveTypes
             }
             Console.WriteLine("Chuỗi Space");
         }
-        public static void CheckEmptyOrSpaceStringAndRemoveWhiteSpace(string inputString)
+        public static void CheckEmptyOrSpaceStringAndRemoveWhiteSpace()
         {
+            Console.Clear();
+            Console.WriteLine("3. CheckEmptyOrSpaceStringAndRemoveWhiteSpace");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -82,8 +116,12 @@ namespace PrimitiveTypes
             Console.WriteLine("Chuỗi Space");
         }
 
-        public static void CapitalizeString(string inputString)
+        public static void CapitalizeString()
         {
+            Console.Clear();
+            Console.WriteLine("4. CapitalizeString");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -123,8 +161,12 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void CountWhiteSpace(string inputString)
+        public static void CountWhiteSpace()
         {
+            Console.Clear();
+            Console.WriteLine("5. CountWhiteSpace");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -161,8 +203,12 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void CountNotWhiteSpace(string inputString)
+        public static void CountNotWhiteSpace()
         {
+            Console.Clear();
+            Console.WriteLine("6. CountNotWhiteSpace");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -199,8 +245,14 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void CompareString(string string1 , string string2)
+        public static void CompareString()
         {
+            Console.Clear();
+            Console.WriteLine("7. CompareString");
+            Console.WriteLine("Nhap chuoi 1:");
+            string string1 = Console.ReadLine();
+            Console.WriteLine("Nhap chuoi 2s:");
+            string string2 = Console.ReadLine();
             if (string1 == string2) {
                 Console.WriteLine($"Chuoi {string1} giong chuoi {string2}");
             }
@@ -210,8 +262,14 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void CompareInSensitiveString(string string1, string string2)
+        public static void CompareInSensitiveString()
         {
+            Console.Clear();
+            Console.WriteLine("8. CompareInSensitiveString");
+            Console.WriteLine("Nhap chuoi 1:");
+            string string1 = Console.ReadLine();
+            Console.WriteLine("Nhap chuoi 2s:");
+            string string2 = Console.ReadLine();
             if (string1.ToLower() == string2.ToLower())
             {
                 Console.WriteLine($"Chuoi {string1} giong chuoi {string2}");
@@ -222,8 +280,12 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void ReplaceABCtoDEF(string inputString)
+        public static void ReplaceABCtoDEF()
         {
+            Console.Clear();
+            Console.WriteLine("9. ReplaceABCtoDEF");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -260,13 +322,21 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void Welcome(string name)
+        public static void Welcome()
         {
+            Console.Clear();
+            Console.WriteLine("10. Welcome");
+            Console.WriteLine("Nhap chuoi:");
+            string name = Console.ReadLine();
             Console.WriteLine($"Kính chào ông {name}. Chúc ngon miệng");
         }
 
-        public static void ReverseString(string inputString)
+        public static void ReverseString()
         {
+            Console.Clear();
+            Console.WriteLine("11. ReverseString");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
             string newString = "";
             for(int i = inputString.Length - 1; i >= 0; i--)
             {
@@ -275,8 +345,14 @@ namespace PrimitiveTypes
             Console.WriteLine(newString);
         }
 
-        public static void GetNCharStartOfStringTrimStart(string inputString, int n)
+        public static void GetNCharStartOfStringTrimStart()
         {
+            Console.Clear();
+            Console.WriteLine("12. etNCharStartOfStringTrimStart");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
+            Console.WriteLine("Nhap N:");
+            int n = int.Parse(Console.ReadLine());
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -318,8 +394,14 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void GetNCharStartOfString(string inputString, int n)
+        public static void GetNCharStartOfString()
         {
+            Console.Clear();
+            Console.WriteLine("13. GetNCharStartOfString");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
+            Console.WriteLine("Nhap N:");
+            int n = int.Parse(Console.ReadLine());
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");
@@ -362,8 +444,14 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void GetNCharEndOfString(string inputString, int n)
+        public static void GetNCharEndOfString()
         {
+            Console.Clear();
+            Console.WriteLine("14. GetNCharEndOfString");
+            Console.WriteLine("Nhap chuoi:");
+            string inputString = Console.ReadLine();
+            Console.WriteLine("Nhap N:");
+            int n = int.Parse(Console.ReadLine());
             if (inputString == null)
             {
                 Console.WriteLine("Chuỗi bị null");

@@ -4,8 +4,25 @@ namespace PrimitiveTypes
 {
     static class IntPractice
     {
-        public static void CheckOddOrEvenNumber(int number) {
-            if(number <= 0)
+
+        public static void PrintMenu()
+        {
+            Console.WriteLine("\n------------------------------------------------------");
+            Console.WriteLine("1. CheckOddOrEvenNumber");
+            Console.WriteLine("2. Abs");
+            Console.WriteLine("3. SquareNumber");
+            Console.WriteLine("4. Divide");
+            Console.WriteLine("5. CheckPrimeNumber");
+            Console.WriteLine("6. CheckInt32String");
+            Console.WriteLine("7. Thoat");
+            Console.WriteLine("------------------------------------------------------\n");
+        }
+        public static void CheckOddOrEvenNumber() {
+            Console.Clear();
+            Console.WriteLine("1. CheckOddOrEvenNumber");
+            Console.WriteLine("Nhap so:");
+            int number = int.Parse(Console.ReadLine());
+            if (number <= 0)
             {
                 Console.WriteLine("Số <= 0");
             }
@@ -19,14 +36,22 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void Abs(int number)
+        public static void Abs()
         {
+            Console.Clear();
+            Console.WriteLine("2. Abs");
+            Console.WriteLine("Nhap so:");
+            int number = int.Parse(Console.ReadLine());
             Console.WriteLine(Math.Abs(number));
         }
 
-        public static void SquareNumber(int number)
+        public static void SquareNumber()
         {
-            if(number < 0 )
+            Console.Clear();
+            Console.WriteLine("3. SquareNumber");
+            Console.WriteLine("Nhap so:");
+            int number = int.Parse(Console.ReadLine());
+            if (number < 0 )
             {
                 Console.WriteLine("Số <= 0");
             }
@@ -36,14 +61,24 @@ namespace PrimitiveTypes
             }
         }
 
-        public static void Divide(int a, int b)
+        public static void Divide()
         {
+            Console.Clear();
+            Console.WriteLine("4. Divide");
+            Console.WriteLine("Nhap so a:");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap so b:");
+            int b = int.Parse(Console.ReadLine());
             Console.WriteLine($"{a} chia {b} bằng {a / b} dư {a % b}");
         }
 
-        public static void CheckPrimeNumber(int number)
+        public static void CheckPrimeNumber()
         {
-            if( number < 0)
+            Console.Clear();
+            Console.WriteLine("5. CheckPrimeNumber");
+            Console.WriteLine("Nhap so:");
+            int number = int.Parse(Console.ReadLine());
+            if ( number < 0)
             {
                 Console.WriteLine("Không");
                 return;
@@ -60,8 +95,12 @@ namespace PrimitiveTypes
             Console.WriteLine("Số nguyên tố");
         }
 
-        public static void CheckInt32String(string stringNumber)
+        public static void CheckInt32String()
         {
+            Console.Clear();
+            Console.WriteLine("6. CheckInt32String");
+            Console.WriteLine("Nhap so dang chuoi:");
+            string stringNumber = Console.ReadLine();
             int number;
             if (int.TryParse(stringNumber, out number))
             {
